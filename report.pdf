@@ -1,0 +1,29 @@
+Title: Heapsort and Priority Queue: Implementation, Analysis, and Applications
+
+1. Introduction
+Brief overview of Heapsort and Priority Queue data structures.
+Description of the objectives: to implement and analyze Heapsort, and to build a priority queue with applications in task scheduling.
+2. Heapsort Implementation
+Implementation Details:
+Description of how a max-heap is built and used in Heapsort.
+Explanation of the heapify process, where each parent node is larger than its children.
+Time Complexity Analysis:
+Worst, Best, and Average Cases: Discuss that Heapsort has O(n log n) time complexity across all cases because of building the heap (O(n)) and extracting the root (O(log n) per extraction).
+Space Complexity: Explain that Heapsort uses O(1) additional space when implemented in-place.
+3. Comparison with Other Sorting Algorithms
+Experiment Setup: Describe test cases, including sorted, reverse-sorted, and random lists of various sizes.
+Results:
+Provide a table or graph of running times comparing Heapsort, Quicksort, and Merge Sort.
+Analysis:
+Discuss how Heapsort performed relative to Quicksort and Merge Sort and explain any observed differences.
+4. Priority Queue and Scheduling Simulation
+Data Structure Design:
+Justify the choice of a list for the binary heap structure.
+Explain the Task class and how it holds details like task ID and priority.
+Core Operations:
+Describe the main functions (insert, extract_max, increase_key, is_empty) and their time complexities.
+Scheduling Application:
+Describe a simple scheduling scenario and how tasks are prioritized and handled using the priority queue.
+5. Conclusion
+Summarize the key findings from the Heapsort analysis and the priority queue application.
+Reflect on the strengths of Heapsort and priority queues for handling specific tasks and sorting operations.
